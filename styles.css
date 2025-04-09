@@ -1,24 +1,28 @@
-
-.compartida {
-    color: mediumslateblue;
+#fondo {
+    background-color: rgba(100, 100, 255, 0.5);
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
   }
-  
 
-  p {
-    font-size: 10px;
+  .medida-absoluta {
+    width: 400px;            
+    font-size: 20px;           
+    border: 2px dashed green; 
+    padding: 10px;
+    margin-bottom: 20px;
   }
- 
-  p.compartida {
-    font-weight: bold;
-  }
-  
 
-  .texto {
-    color: crimson;
+  .medida-relativa {
+    width: 50%;               
+    font-size: 1.5em;        
+    border: 4px dotted crimson; 
+    padding: 10px;
   }
-  
 
-  div h2.borde {
-    border: 5px solid blue;
-    border-radius: 15px;
+  body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
   }
